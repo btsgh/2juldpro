@@ -1,0 +1,90 @@
+{
+  "unpublishedPage": {
+    "name": "Time Log",
+    "slug": "time-log",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 790,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Time Log_JSObject1.tabDefault",
+              "name": "JSObject1.tabDefault",
+              "collectionId": "Time Log_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await storeValue('default_tab', ['Report']);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Time Log_getAllTimeLogs",
+              "name": "getAllTimeLogs",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Time Log_getTimeLogs",
+              "name": "getTimeLogs",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "lst_user.selectedItem.id",
+                "lst_user.pageNo - 1",
+                "lst_user.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Time Log_getUsers",
+              "name": "getUsers",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " (lst_user.pageNo - 1) * lst_user.pageSize "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Time Log",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6683a337f9ebd411488321f1_f03b2fb9-569a-4d86-b232-b89a1e2b91d8"
+}

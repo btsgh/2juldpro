@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Time Log",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Time Log_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6683a337f9ebd411488321f1_83bcd5b6-911c-4357-b6be-9386e3112aa2"
+}

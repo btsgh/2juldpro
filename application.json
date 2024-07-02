@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Time Log",
+      "isDefault": false
+    },
+    {
       "id": "Schedule",
       "isDefault": false
     },
