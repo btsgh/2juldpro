@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2InBuiltLib",
+    "pageId": "Inbuilt Framework",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Inbuilt Framework_JSObject2InBuiltLib",
+  "deleted": false,
+  "gitSyncId": "65afd696b672a72a800fd25c_a1738751-df29-412a-ba30-78a77b389f78"
+}

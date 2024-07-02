@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Investors",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Investors_utils",
+  "deleted": false,
+  "gitSyncId": "66837e461a373f5c5fba047a_72363a89-7d85-4ead-9142-7d03b692f9e0"
+}
